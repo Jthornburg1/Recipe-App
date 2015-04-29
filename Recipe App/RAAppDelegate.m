@@ -5,7 +5,7 @@
 //  Created by Joshua Howland on 5/21/14.
 //  Copyright (c) 2014 DevMountain. All rights reserved.
 //
-
+#import "RecipeViewController.h"
 #import "RAAppDelegate.h"
 
 @implementation RAAppDelegate
@@ -14,6 +14,13 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    RecipeViewController *viewController = [RecipeViewController new];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController]; //called a navigationController and a View Controller
+    
+    self.window.rootViewController = navigationController;
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
