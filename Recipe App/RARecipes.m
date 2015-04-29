@@ -109,7 +109,7 @@ static NSString * const DirectionsKey = @"directions";
                                    ]
                  },
              @{
-                 RecipeTitleKey : @"Chicken & chorizo jambalaya",
+                 RecipeTitleKey : @"Chicken & andouille jambalaya",
                  RecipeDescriptionKey : @"A Cajun-inspired rice pot recipe with spicy Spanish sausage, sweet peppers and tomatoes",
                  RecipeIngredientsKey : @[
                          @{IngredientTypeKey: @"olive oil", IngredientVolumeKey: @"1 tbs"},
@@ -118,7 +118,7 @@ static NSString * const DirectionsKey = @"directions";
                          @{IngredientTypeKey: @"red pepper sliced", IngredientVolumeKey: @"1"},
                          @{IngredientTypeKey: @"galic cloves crushed", IngredientVolumeKey: @"2"}
                          ],
-                 DirectionsKey : @[@"Heat the oil in a large frying pan with a lid and brown the chicken for 5-8 mins until golden. Remove and set aside. Tip in the onion and cook for 3-4 mins until soft. Then add the pepper, garlic, chorizo and Cajun seasoning, and cook for 5 mins more.",
+                 DirectionsKey : @[@"Heat the oil in a large frying pan with a lid and brown the chicken for 5-8 mins until golden. Remove and set aside. Tip in the onion and cook for 3-4 mins until soft. Then add the pepper, garlic, andouille and Cajun seasoning, and cook for 5 mins more.",
                                    @"Stir the chicken back in with the rice, add the tomatoes and stock. Cover and simmer for 20-25 mins until the rice is tender."]
                  },
              @{

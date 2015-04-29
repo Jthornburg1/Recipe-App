@@ -14,8 +14,13 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:@"cell"];
-    cell.textLabel.text = [RARecipes titleAtIndex:indexPath.row ];
+    cell.textLabel.text = [RARecipes titleAtIndex:indexPath.row];
     return cell;
+}
+
+-(void)registerTableView:(UITableView *)tableView
+{
+    [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
 }
 
 
