@@ -18,6 +18,7 @@
     
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController]; //called a navigationController and a View Controller
     
+    //Make the navigationController the rootViewController of the window.
     self.window.rootViewController = navigationController;
     
     

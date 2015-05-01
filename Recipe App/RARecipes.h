@@ -10,6 +10,8 @@
 
 @interface RARecipes : NSObject
 
++ (NSArray *)directionsAtIndex:(NSInteger)index;
+
 + (NSInteger)count;
 
 + (NSDictionary *)recipeAtIndex:(NSInteger)index;
